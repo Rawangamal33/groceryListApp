@@ -2,22 +2,22 @@
   "_comment": "we use json server to launch local rest api json server in web page and work with it we will create folder data and then file dp.json and then type our data that we want to launch in this file and then type(run) in the terminal     npx json-server -p 3500 -w data/dp.json      and then go to this webpage http://localhost:3500/items by ctrl+click او بصي روحي للموقع ده npmjs.com وتابعي بقي مع تعليمات الموقع    to end the json port running type in terminal             netstat -ano | findstr :3500           then see the output number and for example it is this      taskkill /PID 22136 /F           and then if you want to run local api rest json server in webpage type           npx json-server -p 3500 -w data/dp.json",
   "items": [
     {
-      "id": "1",
+      "id": 1,
       "checked": false,
       "item": "Almonds, Unsalted, in the blue bag"
     },
     {
-      "id": "2",
+      "id": 2,
       "checked": false,
       "item": "Pizza"
     },
     {
-      "id": "3",
+      "id": 3,
       "checked": false,
       "item": "Bread"
     },
     {
-      "id": "31",
+      "id": 4,
       "checked": false,
       "item": "Milk"
     }
